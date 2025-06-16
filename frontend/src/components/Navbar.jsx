@@ -18,7 +18,7 @@ const NavbarComponent = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto d-flex align-items-center">
-  <Nav.Link href="#" className="nav-link-mid">HOME</Nav.Link>
+  <Nav.Link as={Link} to="Home" className="nav-link-mid">HOME</Nav.Link>
   <div className="nav-link-mid dropdown-container">
     <Nav.Link as={Link} to='transactionPage' className="nav-link-mid">Show All transactions</Nav.Link>
               

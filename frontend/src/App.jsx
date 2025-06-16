@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Layout from './Layout';
-import HomePage from './Pages/HomePage';
-import CartPage from './Pages/CartPage';
+import HomePage from './Pages/Home';
+import CartPage from './Pages/Cart';
 import Success from './Pages/Success';
 import Cancel from './Pages/Cancel';
-import TransactionsPage from './Pages/transactionPage';
+import TransactionsPage from './Pages/transaction';
 
 const App = () => {
   
